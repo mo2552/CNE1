@@ -1,0 +1,32 @@
+/*===========================
+  tabs AND ACCORDIONS css 
+===========================*/
+.header-content-area {
+  background: linear-gradient(45deg, var(--gray-4), var(--primary));
+}
+
+.tabs-area {
+  background-color: var(--shadow-4);
+}
+.tabs-title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 45px;
+  color: var(--black);
+  margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .tabs-title {
+    font-size: 24px;
+    line-height: 35px;
+  }
+}
+
+/* tabs-five */
+.latest-news-area {
+  background: var(--white);
+  padding: 10px 0 0;
+}
+.latest-news-area .single-news .image img:last-child {
+  height: 277.33px !important;
+}
